@@ -53,4 +53,33 @@ $menu.addEventListener('click', function (e) {
         clearEdit();
 });
 
+function keysBind(e) {
+    switch (e.keyCode) {
+        case 66 : {
+            setupReplace(selection, 0);
+            break;
+        }
+        case 67: {
+            setupReplace(selection, 3);
+            break;
+        }
+        case 73: {
+            setupReplace(selection, 1);
+            break;
+        }
+        case 77: {
+            setupReplace(selection, 4);
+            break;
+        }
+        case 85: {
+            setupReplace(selection, 2);
+            break;
+        }
+        case 8: {
+            clearEdit();
+            break;
+        }
+    }
+}
+window.addEventListener('keyup', keysBind);
 selectedText();
