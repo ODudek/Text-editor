@@ -81,5 +81,5 @@ function keysBind(e) {
         }
     }
 }
-window.addEventListener('keyup', keysBind);
+document.addEventListener('keyup', keysBind);
 selectedText();
