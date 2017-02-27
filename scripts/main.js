@@ -1,5 +1,6 @@
 'use strict';
 
+require('../styles/style.css');
 let ARRAYOFHTML = [{
     begin: ['<b>', '<i>', '<ins>', '<code>', '<mark>'],
     end: ['</b>', '</i>', '</ins>', '</code>', '</mark>']

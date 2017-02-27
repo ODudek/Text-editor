@@ -16,3 +16,4 @@ Simple editor of text
     - `C - code`
     - `M - mark`
     - `Backspace - clear`
+ 2. Webpack
